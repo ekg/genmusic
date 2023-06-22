@@ -1,0 +1,10 @@
+BMC Bioinformatics
+PLOS Computational Biology
+Nucleic Acids Research (has a dedicated issue for new biological software tools each year)
+Journal of Computational Biology
+BioData Mining
+Briefings in Bioinformatics
+Genome Research
+Bioinformatics and Biology Insights
+Algorithms for Molecular Biology
+Journal of Open Research Software.
