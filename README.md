@@ -5,7 +5,7 @@ I'm making an album of ai generated music, using prompts for each song. Here is 
 
 "$PROMPT"
 
-Write 20 music generation prompts that explore this space in a unique and interesting way, mixing various pop music styles into the general theme.;
+Write 20 music generation prompts that explore this space in a unique and interesting way, mixing various pop music styles into the general theme.
 
 Prompts should be descriptive, not imperative. Describe the music as it would be heard to a listener. Do not quote the prompts.
 ```
