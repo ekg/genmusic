@@ -50,7 +50,7 @@ for batch in batches:
         # trim the name to 100 characters to avoid long filenames
         name = name[:100]
         # Will save with loudness normalization at -14 db LUFS.
-        audio_write(f'{output_dir}/{name}', one_wav.cpu(), model.sample_rate, strategy="loudness")
+        audio_write(f'{output_dir}/{name}', one_wav.cpu(), model.sample_rate, strategy="loudness", loudness_compressor=True)
         # recode to mp3
         # writing to output_dir
         torchaudio.save(f'{output_dir}/{name}.mp3', one_wav.cpu(), model.sample_rate)

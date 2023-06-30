@@ -16,3 +16,15 @@ Save the output prompts in a file, say `music.txt`, and then generate tracks usi
 
 where 120 and 1 are the length in seconds and batch size
 
+
+
+## installation notes
+
+For H100.
+
+```
+conda create --name musicgen python=3.10
+conda activate musicgen
+pip install torch==2.0.0+cu118 torchaudio==2.0.0+cu118 torchvision==0.15.0+cu118 --extra-index-url https://download.pytorch.org/whl/cu118
+pip install -U 'git+https://git@github.com/facebookresearch/audiocraft#egg=audiocraft'
+```
